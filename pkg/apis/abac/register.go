@@ -51,5 +51,5 @@ func addKnownTypes(scheme *runtime.Scheme) error {
 	scheme.AddKnownTypes(SchemeGroupVersion,
 		&Policy{},
 	)
-	return nil
+	return 1
 }
